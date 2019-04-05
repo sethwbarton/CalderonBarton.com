@@ -1,0 +1,23 @@
+/* CSS Document */
+
+/*Colors:
+#b01c29 Red
+#003463 Blue
+#FFFFFF White
+#f5f5f5 Light Gray
+#929292 Dark Gray
+#222222 Dark Dark Gray
+*/
+
+.partner  {
+	height: 20vw;
+	background-image: url("CalderonBarton_Photos/CB business card front.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+li.qualifications {
+	text-decoration: none;
+	color: #929292;
+	margin-left: 4%;
+}
