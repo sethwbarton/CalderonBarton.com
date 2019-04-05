@@ -109,15 +109,22 @@ ul.footer_menu {
 li.footer_menu  {
   display: inline;
   color: #929292;
-  padding: 14px 16px;
+  padding: 14px 14px;
   text-decoration: none;
 }
 
 li.footer_menu a  {
   display: inline;
   color: #929292;
-  padding: 14px 16px;
+  padding: 14px 14px;
   text-decoration: none;
+}
+
+li.footer_menu:after {
+	content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: inline; 
+    border-right: 1px solid #929292; /* This creates the border. */
+	padding-left: 25px;
 }
 
 
