@@ -1,0 +1,164 @@
+/* CSS Document */
+
+/*Colors:
+#b01c29 Red
+#003463 Blue
+#FFFFFF White
+#f5f5f5 Light Gray
+#929292 Dark Gray
+#222222 Dark Dark Gray
+*/
+
+/* GENERAL */
+body {
+	margin: 0px;
+	font-family: 'Hind Siliguri', sans-serif;
+}
+
+/* TOP BAR */
+
+/*
+li.top_logo {
+	height: 100px;
+}
+Get a smaller, no background version from Mom
+*/
+
+ul.top_bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #003463;
+}
+
+li.top_bar  {
+  float: left;
+}
+
+li.top_bar a  {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.top_bar a:hover {
+  background-color: #b01c29;
+}
+
+/*LOWER BAR*/
+ul.lower_bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+
+li.lower_bar  {
+  float: right;
+}
+
+li.lower_bar a  {
+  display: block;
+  color: #929292;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.lower_bar a:hover {
+  color: #003463;
+}
+
+/*MAIN HEADER*/
+h1.main_header {
+	text-align: center;
+	background-color: #f5f5f5;
+	padding: 3%;
+	font-weight: 300;
+}
+
+/* MMAIN STORY */
+.main_story {
+	padding-left: 6%;
+	padding-right: 40%;
+}
+
+h3.main_story {
+	padding-top: 3%;
+	padding-bottom: 3%;
+	font-weight: 400;
+}
+
+p.main_story {
+	color: #929292;
+}
+
+/*FOOTER MENU*/
+ul.footer_menu {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #222222;
+  padding: 1%;
+}
+
+li.footer_menu  {
+  display: inline;
+  color: #929292;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.footer_menu a  {
+  display: inline;
+  color: #929292;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+/*SLIDE SHOW */
+	
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow_container {
+  width: 100%;
+  position: relative;
+}
+
+.slides img {
+	height: 45vw;
+}
+
+/* Hide the images by default */
+.slides {
+  display: none;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4.5s;
+  animation-name: fade;
+  animation-duration: 4.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+
