@@ -17,14 +17,27 @@ body {
 
 /* TOP BAR */
 
-/*
-li.top_logo {
-	height: 100px;
+#logo {
+  float: left;
 }
-Get a smaller, no background version from Mom
-*/
 
-ul.top_bar {
+.top_bar {
+  background-color: #003463;
+  height: 5vw;
+}
+
+.navigation_image {
+	height: 5vw;
+}
+
+.navigation {
+  float: left;
+  list-style: none;
+  padding: 0;
+
+}
+
+ul.navigation {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -32,11 +45,11 @@ ul.top_bar {
   background-color: #003463;
 }
 
-li.top_bar  {
+li.navigation  {
   float: left;
 }
 
-li.top_bar a  {
+li.navigation a  {
   display: block;
   color: white;
   text-align: center;
@@ -44,7 +57,7 @@ li.top_bar a  {
   text-decoration: none;
 }
 
-li.top_bar a:hover {
+li.navigation a:hover {
   background-color: #b01c29;
 }
 
