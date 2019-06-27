@@ -23,11 +23,11 @@ body {
 
 .top_bar {
   background-color: #003463;
-  height: 5vw;
+  height: 3.8vw;
 }
 
 .navigation_image {
-	height: 5vw;
+	height: 3.8vw;
 }
 
 .navigation {
@@ -110,6 +110,7 @@ p.main_story {
 	color: #929292;
 }
 
+
 /*FOOTER MENU*/
 ul.footer_menu {
   list-style-type: none;
@@ -153,6 +154,16 @@ li.footer_menu:after {
 
 .slides img {
 	height: 45vw;
+}
+
+.slides_overlay {
+	position: absolute;
+	top: 1%;
+	left: 30%;
+	text-align: center;
+	z-index: 2;
+	color: #b01c29;
+	font-size: 64px;
 }
 
 /* Hide the images by default */
